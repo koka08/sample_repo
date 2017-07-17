@@ -1,0 +1,7 @@
+ERROR:example:Error from throws():
+Traceback (most recent call last):
+  File "prog1.py", line 11, in main
+    throws()
+  File "prog1.py", line 5, in throws
+    raise RuntimeError('this is the error message')
+RuntimeError: this is the error message
